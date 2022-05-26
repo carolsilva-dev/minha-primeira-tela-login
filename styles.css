@@ -1,0 +1,128 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  .container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+
+  .login .login-box {
+    padding: 10px;
+    max-width: 400px;
+    margin-top: 15px;
+  }
+  
+  .login .login-box h1 {
+    margin-top: 15px;
+  }
+  
+  .login .login-box input[type="text"] {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #aab8c2;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .login .login-box input[type="text"] ::-webkit-input-placeholder {
+    color: #aab8c2;
+  }
+  
+  .login .login-box input[type="text"] :-ms-input-placeholder {
+    color: #aab8c2;
+  }
+  
+  .login .login-box input[type="text"] ::-ms-input-placeholder {
+    color: #aab8c2;
+  }
+  
+  .login .login-box input[type="text"] ::placeholder {
+    color: #aab8c2;
+  }
+  
+  .login .login-box input[type="password"] {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #aab8c2;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .login .login-box .btn-login {
+    background-color: #1da1f2;
+    color: white;
+    height: 55px;
+    width: 100%;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login .login-box a {
+    font-size: medium;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+  /*
+  h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  */
